@@ -28,9 +28,7 @@ SECRET_KEY = 'jm@+vz)%x33_oppgznaz2pqnt#jhy*u!v&@tl_w9@1hbh08tqk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'gem84.azurewebsites.net', '0.0.0.0', '127.0.0.1', 'localhost',
-]
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
